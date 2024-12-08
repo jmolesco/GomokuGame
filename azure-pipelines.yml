@@ -7,9 +7,9 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: archre2/Infrastructure
+      name: jmolesco/Infrastructure
       ref: "refs/heads/develop"      
-      endpoint: archre2
+      endpoint: jmolesco
 
 variables:
   containerRegistry: $(dockerRegistryServiceConnection2)
